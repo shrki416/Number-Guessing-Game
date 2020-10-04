@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Guess The Number</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
+  <body class="text-center">
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Guess The Number</a>
+      <a class="navbar-brand" href="#">Number Guessing Game</a>
     </nav>
     <main>
       <h1 class="banner p-3">1.2.3.</h1>
@@ -20,7 +27,7 @@
         />
       </div>
       <div id="result"></div>
-      <button type="button" id="number-submit" class="btn btn-lg btn-secondary">
+      <button type="button" id="number-submit" class="btn btn-lg btn-warning">
         Check Me
       </button>
       <button type="button" id="restart-game" class="btn btn-lg btn-light">
@@ -28,5 +35,6 @@
       </button>
       <div id="history"></div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
